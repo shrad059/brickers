@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+.grid{
+    margin: 10px 200px;
+    position: absolute;
+    width: 800px;
+    height: 670px;
+    border: solid white 3px ;
+    background-color: rgb(156, 180, 156);
+}
+
+.block{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: green;
+    border: solid 1px black;
+    /* left: 50px;
+    bottom: 50px; */
+}
+.user{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: darkgreen;
+    border: solid 1px black;
+    /* left: 50px;
+    bottom: 50px; */
+}
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    border: solid 1px black;
+}
+#status{
+    color: white;
+    font-size: 50px;
+    margin: 0 500px;
+}
+#score{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 20px;
+    margin-left: 600px;
+}
+#scoreTit{
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 400px;
+
+}
